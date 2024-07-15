@@ -1,1 +1,0 @@
-import{initHome}from"./components/home.js";import{initPrompts}from"./components/prompts.js";import{initSettings}from"./components/settings.js";Office.onReady((function(t){t.host===Office.HostType.Word&&(initHome(),initPrompts(),initSettings())}));
