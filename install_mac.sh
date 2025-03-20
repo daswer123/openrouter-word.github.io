@@ -9,10 +9,10 @@ USERNAME=$(whoami)
 WEF_PATH="/Users/$USERNAME/Library/Containers/com.microsoft.Word/Data/Documents/wef"
 
 # URL манифеста
-MANIFEST_URL="https://raw.githubusercontent.com/daswer123/openrouter-word.github.io/refs/heads/main/manifest.xml"
+MANIFEST_URL="https://raw.githubusercontent.com/daswer123/openrouter-word.github.io/refs/heads/main/manifest_mac.xml"
 
 # Имя файла манифеста
-MANIFEST_FILE="manifest.xml"
+MANIFEST_FILE="manifest_mac.xml"
 
 # Проверяем, существует ли папка WEF, если нет - создаем
 if [ ! -d "$WEF_PATH" ]; then
